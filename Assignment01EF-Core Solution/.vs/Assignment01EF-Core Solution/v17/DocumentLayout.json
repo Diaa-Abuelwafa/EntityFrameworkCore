@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Technologies\\Backend\\6- Entity Framework Core\\Assignments Route Solutions\\Assignment01EF-Core Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|d:\\technologies\\backend\\6- entity framework core\\assignments route solutions\\assignment01ef-core solution\\assignment01efcore\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|solutionrelative:assignment01efcore\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|d:\\technologies\\backend\\6- entity framework core\\assignments route solutions\\assignment01ef-core solution\\assignment01efcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|solutionrelative:assignment01efcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|d:\\technologies\\backend\\6- entity framework core\\assignments route solutions\\assignment01ef-core solution\\assignment01efcore\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|solutionrelative:assignment01efcore\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|d:\\technologies\\backend\\6- entity framework core\\assignments route solutions\\assignment01ef-core solution\\assignment01efcore\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|solutionrelative:assignment01efcore\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|d:\\technologies\\backend\\6- entity framework core\\assignments route solutions\\assignment01ef-core solution\\assignment01efcore\\configurations\\instructorconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|solutionrelative:assignment01efcore\\configurations\\studentcourseconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|d:\\technologies\\backend\\6- entity framework core\\assignments route solutions\\assignment01ef-core solution\\assignment01efcore\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|solutionrelative:assignment01efcore\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|d:\\technologies\\backend\\6- entity framework core\\assignments route solutions\\assignment01ef-core solution\\assignment01efcore\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C852585-1A56-4615-8E7A-6512B7BBB5FB}|Assignment01EFCore\\Assignment01EFCore.csproj|solutionrelative:assignment01efcore\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Instructor.cs",
               "DocumentMoniker": "D:\\Technologies\\Backend\\6- Entity Framework Core\\Assignments Route Solutions\\Assignment01EF-Core Solution\\Assignment01EFCore\\Entities\\Instructor.cs",
               "RelativeDocumentMoniker": "Assignment01EFCore\\Entities\\Instructor.cs",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InstructorConfigurations.cs",
               "DocumentMoniker": "D:\\Technologies\\Backend\\6- Entity Framework Core\\Assignments Route Solutions\\Assignment01EF-Core Solution\\Assignment01EFCore\\Configurations\\InstructorConfigurations.cs",
               "RelativeDocumentMoniker": "Assignment01EFCore\\Configurations\\InstructorConfigurations.cs",
@@ -63,12 +63,11 @@
               "RelativeToolTip": "Assignment01EFCore\\Configurations\\InstructorConfigurations.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T01:27:47.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T01:27:47.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StudentConfigurations.cs",
               "DocumentMoniker": "D:\\Technologies\\Backend\\6- Entity Framework Core\\Assignments Route Solutions\\Assignment01EF-Core Solution\\Assignment01EFCore\\Configurations\\StudentConfigurations.cs",
               "RelativeDocumentMoniker": "Assignment01EFCore\\Configurations\\StudentConfigurations.cs",
@@ -76,12 +75,11 @@
               "RelativeToolTip": "Assignment01EFCore\\Configurations\\StudentConfigurations.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T01:27:44.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T01:27:44.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StudentCourseConfigurations.cs",
               "DocumentMoniker": "D:\\Technologies\\Backend\\6- Entity Framework Core\\Assignments Route Solutions\\Assignment01EF-Core Solution\\Assignment01EFCore\\Configurations\\StudentCourseConfigurations.cs",
               "RelativeDocumentMoniker": "Assignment01EFCore\\Configurations\\StudentCourseConfigurations.cs",
@@ -89,20 +87,20 @@
               "RelativeToolTip": "Assignment01EFCore\\Configurations\\StudentCourseConfigurations.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T01:27:42.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T01:27:42.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\Technologies\\Backend\\6- Entity Framework Core\\Assignments Route Solutions\\Assignment01EF-Core Solution\\Assignment01EFCore\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "Assignment01EFCore\\Entities\\Student.cs",
               "ToolTip": "D:\\Technologies\\Backend\\6- Entity Framework Core\\Assignments Route Solutions\\Assignment01EF-Core Solution\\Assignment01EFCore\\Entities\\Student.cs",
               "RelativeToolTip": "Assignment01EFCore\\Entities\\Student.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABFAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T00:29:12.043Z"
+              "WhenOpened": "2024-09-02T00:29:12.043Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -118,13 +116,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Technologies\\Backend\\6- Entity Framework Core\\Assignments Route Solutions\\Assignment01EF-Core Solution\\Assignment01EFCore\\Program.cs",
               "RelativeDocumentMoniker": "Assignment01EFCore\\Program.cs",
               "ToolTip": "D:\\Technologies\\Backend\\6- Entity Framework Core\\Assignments Route Solutions\\Assignment01EF-Core Solution\\Assignment01EFCore\\Program.cs",
               "RelativeToolTip": "Assignment01EFCore\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFIBAAAlAAAA",
+              "ViewState": "AQIAAP4AAAAAAAAAAAAuwIkBAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T21:45:38.128Z",
               "EditorCaption": ""

@@ -336,7 +336,60 @@ namespace Assignment01EFCore
 
                 #region Joining Operators
 
-                var Result = Context.
+                var Result01 = Context.Students.Join(Context.Departments,
+                        s => s.DeptId,
+                        d => d.DepartmentId,
+                        // Return For Me Collection Of Annonymous Types
+                        (s, d) => new
+                        {
+                            StudentName = s.FName,
+                            DepartmentName = d.Name,
+                        }
+                    );
+
+                foreach (var c in Result01)
+                {
+                    Console.WriteLine(c.StudentName + " " + c.DepartmentName);
+                }
+
+                var Result02 = Context.Students.GroupJoin(Context.Departments,
+                        s => s.DeptId,
+                        d => d.DepartmentId,
+                        (s, d) => new
+                        {
+                            s,
+                            d = d.DefaultIfEmpty()
+                        }
+                    ).SelectMany(sc => sc.d,
+                        (sc, d) => new
+                        {
+                            sc.s.FName,
+                            d.Name
+                        }
+                    );
+
+                Console.WriteLine("------------------------------");
+
+                foreach (var c in Result02)
+                {
+                    Console.WriteLine(c.FName + " " + c.Name);
+                }
+
+                var Result03 = Context.Students.SelectMany(stu => Context.Departments,
+                        (stu, dept) => new
+                        {
+                            stu.FName, 
+                            dept.Name
+                        }
+                    );
+
+                Console.WriteLine("------------------------------");
+
+
+                foreach (var c in Result03)
+                {
+                    Console.WriteLine(c.FName + " " + c.Name);
+                }
 
                 #endregion
             }
