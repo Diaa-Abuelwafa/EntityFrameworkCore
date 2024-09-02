@@ -13,6 +13,7 @@ namespace Assignment01EFCore.Configurations
     {
         public void Configure(EntityTypeBuilder<Student> builder)
         {
+            // Not Required Relationship : Means I Can Insert Student Without Exsist At Department
             builder.HasOne(x => x.Department)
                    .WithMany(x => x.Students)
                    .HasForeignKey(x => x.DeptId)

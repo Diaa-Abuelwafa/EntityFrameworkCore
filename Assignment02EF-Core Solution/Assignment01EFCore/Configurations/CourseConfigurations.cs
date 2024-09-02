@@ -13,6 +13,7 @@ namespace Assignment01EFCore.Configurations
     {
         public void Configure(EntityTypeBuilder<Course> builder)
         {
+            // Not Required RRelationship : Means I Can Insert Course Without Topic
             builder.HasOne(x => x.CourseTopic)
                    .WithOne(x => x.CourseHasTopic)
                    .HasForeignKey<Course>(x => x.TopicId)

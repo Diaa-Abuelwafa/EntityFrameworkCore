@@ -15,6 +15,6 @@ namespace Assignment01EFCore.Entities
         public int Age { get; set; }
         public int? DeptId { get; set; }
         public Department Department { get; set; }
-        public ICollection<StudentCourse> StudentCourse { get; set; } = new List<StudentCourse>();
+        public ICollection<StudentCourse> StudentCourse { get; set; }
     }
 }

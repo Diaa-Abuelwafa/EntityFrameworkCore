@@ -13,6 +13,8 @@ namespace Assignment01EFCore.Configurations
     {
         public void Configure(EntityTypeBuilder<Instructor> builder)
         {
+            // Not Required Relationship : Means I Can Insert Instructor Without WorkDepartment
+            //                           : Means That FK Will Be Nullable
             builder.HasOne(x => x.DeptWork)
                    .WithMany(x => x.InstructorsWork)
                    .HasForeignKey("DeptId")

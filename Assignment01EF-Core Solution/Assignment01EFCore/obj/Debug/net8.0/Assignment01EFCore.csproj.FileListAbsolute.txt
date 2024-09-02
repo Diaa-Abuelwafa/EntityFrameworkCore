@@ -129,3 +129,4 @@ D:\Technologies\Backend\6- Entity Framework Core\Assignments Route Solutions\Ass
 D:\Technologies\Backend\6- Entity Framework Core\Assignments Route Solutions\Assignment01EF-Core Solution\Assignment01EFCore\obj\Debug\net8.0\Assignment01EFCore.pdb
 D:\Technologies\Backend\6- Entity Framework Core\Assignments Route Solutions\Assignment01EF-Core Solution\Assignment01EFCore\obj\Debug\net8.0\Assignment01EFCore.genruntimeconfig.cache
 D:\Technologies\Backend\6- Entity Framework Core\Assignments Route Solutions\Assignment01EF-Core Solution\Assignment01EFCore\obj\Debug\net8.0\ref\Assignment01EFCore.dll
+D:\Technologies\Backend\6- Entity Framework Core\Assignments Route Solutions\Assignment01EF-Core Solution\Assignment01EFCore\obj\Debug\net8.0\Assignment01EFCore.sourcelink.json

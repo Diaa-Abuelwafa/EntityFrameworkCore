@@ -13,6 +13,7 @@ namespace Assignment01EFCore.Configurations
     {
         public void Configure(EntityTypeBuilder<Department> builder)
         {
+            // Required Relationship : Means I Cannot Insert Department Without Manager[Instructor]
             builder.HasOne(x => x.Manager)
                    .WithOne(x => x.DeptManage)
                    .HasForeignKey<Department>("InsId")

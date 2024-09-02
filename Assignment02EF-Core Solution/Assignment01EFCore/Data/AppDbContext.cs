@@ -17,6 +17,7 @@ namespace Assignment01EFCore.Data
         public DbSet<Student> Students { get; set; }
         public DbSet<Topic> Topics { get; set; }
         public DbSet<StudentCourse> Stud_Course { get; set; }
+        public DbSet<CourseInstructor> CourseInstructor { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server = .; Database = ITIDB; Trusted_Connection = True; TrustServerCertificate = True;");
